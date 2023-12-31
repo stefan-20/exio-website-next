@@ -15,21 +15,21 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
-    hash: "#about",
+    name:"Services & Products",
+    hash: "#services"
   },
   {
     name: "Projects",
     hash: "#projects",
   },
-  {
-    name: "Skills",
-    hash: "#skills",
-  },
-  {
-    name: "Experience",
-    hash: "#experience",
-  },
+  // {
+  //   name: "Skills",
+  //   hash: "#skills",
+  // },
+  // {
+  //   name: "Experience",
+  //   hash: "#experience",
+  // },
   {
     name: "Contact",
     hash: "#contact",
@@ -67,7 +67,7 @@ export const projectsData = [
   {
     title: "Data Infrastructure",
     description:
-      "We developed an event driven systems for file uploads, setup a database and multiple data pipelines to transform the data on an hourly basis for analysis. ",
+      "We developed an event driven systems for file uploads, setup a database and multiple data pipelines for an encompassing data landscape.",
     tags: ["Postgres", "MongoDB",  "Python", "Airflow", "SQL"],
     imageUrl: corpcommentImg,
   },
